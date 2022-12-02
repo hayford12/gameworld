@@ -16,9 +16,9 @@
 /* Variables */
 
 :root {
-    --main-color: #fa5353;
+    /* --main-color: #fa5353; */
     /* Second Color Choice */
-    /* --main-color: #0d81ec; */
+     --main-color: #0d81ec;
     --dark-color: #1b182b;
     --light-color: #322f40;
     --text-color: hsl(0, 0%, 91%);
@@ -398,7 +398,7 @@ body {
 
 .new-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 250px));
     gap: 1.2rem;
 }
 
